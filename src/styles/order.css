@@ -1,0 +1,35 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.square {
+    display: flex;
+    flex: 1 300px;
+    background-color: blue;
+    color: white;
+    font-weight: 1000;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.first {
+    order: 0;
+}
+
+.second {
+    order: 2;
+}
+
+.third {
+    order: -1;
+}
+
+.fourth {
+    order: 1;
+}
